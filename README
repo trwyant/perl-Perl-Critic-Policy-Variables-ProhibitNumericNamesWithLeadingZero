@@ -15,7 +15,7 @@ INSTALLATION
 This package is installable by either of the two usual incantations:
 
     tar -xzf \
-	Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter-9.999.tar
+	Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero-9.999.tar
     perl Makefile.PL
     make
     make test
@@ -24,7 +24,7 @@ This package is installable by either of the two usual incantations:
 or
 
     tar -xzf \
-	Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter-9.999.tar
+	Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero-9.999.tar
     perl Build.PL
     ./Build
     ./Build test

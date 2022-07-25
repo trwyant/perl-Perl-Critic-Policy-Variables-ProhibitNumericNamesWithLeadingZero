@@ -1,4 +1,4 @@
-This directory contains examples for the ProhibitUnusedVarsStricter
+This directory contains examples for the ProhibitNumericNamesWithLeadingZero
 Perl-Critic policy. The files are:
 
 README - This file.
