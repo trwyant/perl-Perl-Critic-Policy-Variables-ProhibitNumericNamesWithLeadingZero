@@ -7,6 +7,6 @@ var-names-with-leading-zero - This is a script that executes the
     ProhibitNumericNamesWithLeadingZero policy. It is more or less
     equivalent to
     $ perlcritic --single ProhibitNumericNamesWithLeadingZero
-    but has its own configuration file. Use
+    Use
     $ var-names-with-leading-zero --help
     for the documentation.

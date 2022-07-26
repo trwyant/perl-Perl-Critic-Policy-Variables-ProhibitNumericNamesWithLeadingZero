@@ -20,10 +20,6 @@ our $VERSION = '0.114';
 
 Readonly::Scalar my $DEFAULT_SINGLE_FILE_FORMAT => 4;
 Readonly::Scalar my $DEFAULT_MULTI_FILE_FORMAT  => 5;
-Readonly::Array my @INVERTED_OPTIONS    => qw{
-    prohibit_reference_only_variables
-    prohibit_returned_lexicals
-};
 
 my %opt = map { $_ => 1 } @INVERTED_OPTIONS;
 
@@ -34,11 +30,6 @@ GetOptions( \%opt, qw{
     'verbose!'  => \( my $verbose ),
     help => sub { pod2usage( { -verbose => 2 } ) },
 ) or pod2usage( { -verbose => 0 } );
-
-foreach my $key ( @INVERTED_OPTIONS ) {
-    ( $opt{$key} = ! $opt{$key} )
-        or delete $opt{$key};
-}
 
 if ( ! @ARGV ) {
     -e 'MANIFEST'
