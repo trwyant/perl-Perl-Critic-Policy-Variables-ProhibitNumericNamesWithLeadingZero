@@ -1,4 +1,5 @@
 Build.PL
+CONTRIBUTING
 inc/My/Module/Build.pm
 inc/My/Module/Meta.pm
 lib/Perl/Critic/Policy/Variables/ProhibitNumericNamesWithLeadingZero.pm
