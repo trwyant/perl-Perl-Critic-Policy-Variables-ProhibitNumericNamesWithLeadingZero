@@ -231,6 +231,11 @@ Numeric variable names with leading zeroes are unsupported by Perl, and
 can lead to obscure bugs. In particular, they are not (or not
 straightforwardly) accessible as C<${0nnn}>.
 
+Starting with Perl 5.32, these variables represent a syntax error, so
+this policy is useless with current Perls. On the other hand, it may be
+useful for those with an older code base, especially if they are
+preparing to upgrade it.
+
 =head1 CONFIGURATION
 
 This policy supports no configuration items above and beyond the
