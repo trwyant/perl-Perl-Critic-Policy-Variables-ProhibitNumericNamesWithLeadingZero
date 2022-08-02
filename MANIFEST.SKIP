@@ -5,6 +5,7 @@
 ^Build$
 ^cover_db/
 ^foo
+^\.git
 ^html/
 ^Makefile$
 ^MANIFEST\.
