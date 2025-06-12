@@ -6,6 +6,8 @@
 ^cover_db/
 ^foo
 ^\.git
+^.github/
+^.gitignore$
 ^html/
 ^Makefile$
 ^MANIFEST\.
