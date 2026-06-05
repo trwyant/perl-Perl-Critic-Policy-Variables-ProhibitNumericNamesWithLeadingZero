@@ -216,7 +216,7 @@ __END__
 
 =head1 NAME
 
-Perl::Critic::Policy::Variables::ProhibitNumericNamesWithLeadingZero - Don't use numeric variable names with leading zeroes.
+Perl::Critic::Policy::Variables::ProhibitNumericNamesWithLeadingZero - Don't use numeric variable names with leading zeros.
 
 
 =head1 AFFILIATION
@@ -227,7 +227,7 @@ L<Perl::Critic|Perl::Critic>.
 
 =head1 DESCRIPTION
 
-Numeric variable names with leading zeroes are unsupported by Perl, and
+Numeric variable names with leading zeros are unsupported by Perl, and
 can lead to obscure bugs. In particular, they are not (or not
 straightforwardly) accessible as C<${0nnn}>.
 
