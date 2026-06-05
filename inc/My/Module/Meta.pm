@@ -54,7 +54,6 @@ sub dist_name {
     return 'Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero';
 }
 
-
 sub license {
     return 'perl';
 }
@@ -68,8 +67,7 @@ sub meta_merge {
 	dynamic_config	=> 1,
 	resources	=> {
 	    bugtracker	=> {
-		web	=> 'https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero',
-		# web	=> 'https://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero/issues',
+		web	=> 'https://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero/issues',
 		mailto  => 'harryfmudd@comcast.net',
 	    },
 	    license	=> 'http://dev.perl.org/licenses/',
@@ -82,7 +80,6 @@ sub meta_merge {
 	@extra,
     };
 }
-
 
 sub module_name {
     return 'Perl::Critic::Policy::Variables::ProhibitNumericNamesWithLeadingZero';
@@ -256,8 +253,7 @@ This subroutine returns the version of Perl required by the module.
 =head1 SUPPORT
 
 Support is by the author. Please file bug reports at
-L<https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero>,
-L<https://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero/issues>, or in
+L<https://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero/issues> or in
 electronic mail to the author.
 
 =head1 AUTHOR

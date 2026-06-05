@@ -218,12 +218,10 @@ __END__
 
 Perl::Critic::Policy::Variables::ProhibitNumericNamesWithLeadingZero - Don't use numeric variable names with leading zeros.
 
-
 =head1 AFFILIATION
 
 This Policy is stand-alone, and is not part of the core
 L<Perl::Critic|Perl::Critic>.
-
 
 =head1 DESCRIPTION
 
@@ -244,8 +242,7 @@ standard ones.
 =head1 SUPPORT
 
 Support is by the author. Please file bug reports at
-L<https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter>,
-L<https://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter/issues>, or in
+L<https://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitNumericNamesWithLeadingZero/issues> or in
 electronic mail to the author.
 
 =head1 AUTHOR
